@@ -1,7 +1,7 @@
 {
-  "name": "note-yak",
+  "name": "yak-hole",
   "version": "1.0.0",
-  "description": "A RAG system for querying personal notes using Ollama with a React Native chat interface",
+  "description": "A RAG system for querying personal notes using Ollama with a React Native chat interface"
   "main": "index.js",
   "scripts": {
     "android": "react-native run-android",

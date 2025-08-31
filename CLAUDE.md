@@ -1,10 +1,10 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with the note-yak project.
+This file provides guidance to Claude Code (claude.ai/code) when working with the yak-hole project.
 
 ## Project Overview
 
-note-yak is a personal RAG (Retrieval Augmented Generation) system that allows users to query their personal notes (markdown and PDF format) using Ollama through a React Native chat interface. The system is designed to run on private machines while keeping the codebase open for others to train their own note-yak instances.
+yak-hole is a personal RAG (Retrieval Augmented Generation) system that allows users to query their personal notes (markdown and PDF format) using Ollama through a React Native chat interface. The system is designed to run on private machines while keeping the codebase open for others to train their own yak-hole instances.
 
 ## Architecture
 
@@ -81,7 +81,7 @@ python backend/update_embeddings.py
 ## Project Structure
 
 ```
-note-yak/
+yak-hole/
 ├── README.md                 # Project documentation
 ├── package.json             # React Native dependencies
 ├── CLAUDE.md               # This file
@@ -160,4 +160,4 @@ note-yak/
 - Secure file access permissions
 - Input validation for all endpoints
 
-When working on note-yak, prioritize privacy, local processing, and user experience. The system should feel like a natural extension of the user's note-taking workflow while providing powerful AI-assisted search and synthesis capabilities.
+When working on yak-hole, prioritize privacy, local processing, and user experience. The system should feel like a natural extension of the user's note-taking workflow while providing powerful AI-assisted search and synthesis capabilities.

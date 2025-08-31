@@ -1,4 +1,4 @@
-# 🐂 note-yak
+# 🕳️ yak-hole
 
 A privacy-first RAG (Retrieval Augmented Generation) system for querying your personal notes using Ollama with a React Native chat interface. Transform your markdown and PDF notes into an intelligent, searchable knowledge base that understands your writing style and helps you discover connections between your ideas.
 
@@ -26,7 +26,7 @@ A privacy-first RAG (Retrieval Augmented Generation) system for querying your pe
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd note-yak
+   cd yak-hole
    ```
 
 2. **Install dependencies**
@@ -155,7 +155,7 @@ The app automatically connects to the backend at `http://localhost:8000`. For mo
 ## 📁 Project Structure
 
 ```
-note-yak/
+yak-hole/
 ├── README.md                 # This file
 ├── package.json             # React Native dependencies
 ├── CLAUDE.md               # Development guidelines
@@ -433,7 +433,7 @@ Scanned documents:                5-100MB each
 **Power User System:**
 - 100GB+ free space
 - NVMe SSD for optimal performance  
-- Dedicated partition for note-yak data
+- Dedicated partition for yak-hole data
 - Automated backup to NAS/cloud storage
 
 ## 🐛 Troubleshooting
@@ -483,7 +483,7 @@ ollama serve
 
 ## 🤝 Contributing
 
-note-yak is designed to be personal and customizable. Feel free to:
+yak-hole is designed to be personal and customizable. Feel free to:
 
 1. Fork the repository
 2. Create your feature branch
@@ -510,4 +510,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Note**: Your notes never leave your machine. note-yak is built with privacy as the core principle - all processing, storage, and AI inference happens locally.
+**Note**: Your notes never leave your machine. yak-hole is built with privacy as the core principle - all processing, storage, and AI inference happens locally.
