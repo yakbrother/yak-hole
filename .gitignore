@@ -66,14 +66,18 @@ Pods/
 *.xcworkspace
 !default.xcworkspace
 
-# Data directories (user's personal data)
+# Data directories (user's personal data) - NEVER COMMIT USER DATA
 /data/
+data/**
 /backend/data/
+backend/data/**
 /notes/
 /backend/notes/
 *.db
 *.sqlite
 *.sqlite3
+*.chroma
+*.vec
 
 # Chat history and vector databases
 /chat_history/
@@ -83,7 +87,8 @@ Pods/
 /exports/
 
 # Configuration files with sensitive data
-/backend/config.py
+# Note: we keep config.py template in git but ignore user configs
+/backend/config.local.py
 .env
 .env.local
 .env.development.local
