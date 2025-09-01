@@ -14,7 +14,7 @@ SUPPORTED_EXTENSIONS = [".md", ".pdf", ".txt"]
 
 # Ollama settings
 OLLAMA_BASE_URL = "http://localhost:11434"
-OLLAMA_MODEL = "llama2"
+OLLAMA_MODEL = "llama3.1:8b"
 
 # Vector database settings
 VECTOR_DB_PATH = str(DATA_DIR / "vector_db")
