@@ -11,3 +11,4 @@ watchdog==3.0.0
 numpy==1.24.3
 pandas==2.1.4
 markdown==3.5.1
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
