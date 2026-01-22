@@ -17,7 +17,7 @@
     "dev": "concurrently \"npm run backend\" \"npm start\""
   },
   "dependencies": {
-    "expo": "~49.0.15",
+    "expo": "~53.0.0",
     "react": "18.2.0",
     "react-native": "0.72.6",
     "react-native-paper": "^5.10.6",
