@@ -1,6 +1,6 @@
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
-python-multipart==0.0.6
+python-multipart==0.0.22
 pydantic==2.5.0
 sentence-transformers==2.2.2
 chromadb==0.4.18
@@ -11,3 +11,5 @@ watchdog==3.0.0
 numpy==1.24.3
 pandas==2.1.4
 markdown==3.5.1
+sentencepiece>=0.2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
